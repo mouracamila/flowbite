@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             inactiveClassesArray = inactiveClasses.split(" ");
         } else {
             // fallback classes if option not set
-            inactiveClassesArray = ['text-gray-500', 'dark:text-gray-400'];
+            inactiveClassesArray = ['text-gray-500', 'dark:text-gray-400', 'bg-white', 'dark:bg-gray-900'];
         }
 
         accordionHeaderElements.forEach(accordionHeaderEl => {
